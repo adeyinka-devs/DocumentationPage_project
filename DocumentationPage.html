@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentation Page</title>
+  <link rel="stylesheet" href="documentationPage.css">
+</head>
+<body>
+  <nav id="navbar">
+  <header>TailWind CSS Documentation</header>
+  <div>
+  <a href="#Introduction" class="nav-link">Introduction</a>
+  <a href="#Utility_Classes" class="nav-link">Utility Classes</a>
+  <a href="#Responsive_Design" class="nav-link">Responsive Design
+</a>
+  <a href="#Components" class="nav-link">Components</a>
+  <a href="#Plugins" class="nav-link">Plugins</a>
+  <a href="#Browser_Compatibility" class="nav-link">
+    Browser Compatibility</a>
+  <a href="#Reference" class="nav-link">Reference</a></div>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Tailwind CSS is a utility-first CSS framework that 
+        allows you to style elements directly within your 
+        HTML using utility classes. This approach helps you 
+        create custom designs faster without writing custom CSS.
+         It offers a highly customizable configuration and 
+         integrates with modern build tools like Webpack, 
+         PostCSS, and others.</p>
+    </section>
+    <section class="main-section" id="Utility_Classes">
+       <header>Utility Classes</header>
+       <p>Tailwind’s core feature is its utility classes, 
+        which are single-purpose classes that do one thing, 
+        like text-center, p-4, or bg-blue-500. These can be
+         combined to create complex designs without writing 
+         additional CSS.</p>
+         <p>
+          <p>Example</p>
+          <code>
+            &lt;div class="bg-blue-500 text-white p-4 rounded-lg"
+            &gt;Button&lt;/div&gt;
+          </code>
+         </p>
+    </section>
+    <section class="main-section" id="Responsive_Design">
+       <header>Responsive Design</header>
+       <p>Tailwind includes responsive utilities by prefixing 
+        utility classes with breakpoints like</p>
+        <p> 
+          <ul>
+            <li>sm</li> 
+            <li>md</li> 
+            <li>lg and</li> 
+            <li>xl</li>
+          </ul> 
+        </p>
+        <P>This enables you to design mobile-first and adjust 
+        styles for larger screens.</p>
+        <p><p>Example</p>
+          <code>
+            &lt;div class="p-4 sm:p-6 md:p-8"&gt;Responsive 
+            Padding&lt;/div&gt;
+          </code>
+        </p>
+    </section>
+    <section class="main-section" id="Components">
+       <header>Components</header>
+       <p>
+        Unlike frameworks like Bootstrap, Tailwind doesn’t come 
+        with pre-built components. Instead, you build components
+         using utility classes, giving you complete control over
+          the design.
+       </p>
+       <p>
+        <p>Example</p>
+        <code>
+          &lt;div class="bg-gray-200 p-6 rounded-md shadow-md"&gt; &lt;h2 class="text-xl font-semibold"&gt;Card 
+          Title&lt;/h2&gt;
+        </code>
+        <code>
+          &lt;p class="text-gray-700"&gt;Card content goes here.
+        &lt;/p&gt;&lt;/div&gt;
+        </code>
+       </p>
+    </section>
+    <section class="main-section" id="Plugins">
+       <header>Plugins</header>
+       <p>
+        Tailwind has a rich ecosystem of plugins that extend
+         its functionality, including forms, typography, aspect
+          ratio, and more. You can install plugins to add 
+          additional utilities or components.
+       </p>
+       <p>
+        <p>Example</p>
+        <code>
+          npm install @tailwindcss/forms
+        </code>
+       </p>
+    </section>
+    <section class="main-section" id="Browser_Compatibility">
+       <header>Browser Compatibility</header>
+       <p>
+        Tailwind CSS is compatible with all modern browsers 
+        (Chrome, Firefox, Safari, Edge, etc.) and supports 
+        older versions of Internet Explorer (with some 
+        limitations). Tailwind also uses modern CSS features 
+        like Flexbox and Grid, which should be considered when
+         working with older browsers.
+       </p>
+    </section>
+    <section class="main-section" id="Reference">
+      <header>Reference</header>
+      <p>
+        You can find the full Tailwind CSS documentation and 
+        resources, including installation guides and component 
+        examples at at official site: <ul><li><a href="#">
+          Tailwind CSS Docs</a>
+      </li></ul>
+      </p>
+    
+    </section>
+  </main>
+</body>
+</html>
