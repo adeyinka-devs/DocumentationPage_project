@@ -1,5 +1,9 @@
 body {
   margin: 0 10px;
+  background-color: rgb(243, 242, 242);
+}
+header {
+  font-family: Tahoma, sans-serif;
 }
 #navbar header {
  text-align: center;
@@ -41,6 +45,7 @@ ul a {
     gap: 20px;
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
+    background-color: rgb(243, 242, 242);
   }
  #navbar {
   margin-top: 15px;
