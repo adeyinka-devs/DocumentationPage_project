@@ -4,6 +4,7 @@ body {
 }
 header {
   font-family: Tahoma, sans-serif;
+  margin-top: 1.5rem;
 }
 #navbar header {
  text-align: center;
